@@ -1,0 +1,136 @@
+body {
+    background: url(contact\ us.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: #002d13;
+}
+
+.contact-box {
+    display: flex;
+    background: #ffc700;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #BCF4F5;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #BCF4F5;
+    font-family: cursive;
+}
+
+.container p {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #d3e3bb;
+    font-family: cursive;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #fff;
+}
+
+button {
+    background: #BCF4F5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #002d13;
+    font-family: cursive;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 40px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.contact-left h3 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #002d13;
+}
+
+.contact-right h3 {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+#lb1 {
+    color: #CF5230;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#h33 {
+    font-family: cursive;
+    color: #fff;
+}
+
+#h333 {
+    font-family: cursive;
+    color: #000;
+}
+
+#td1 {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#td2 {
+    font-family: cursive;
+    color: #002d13;
+}

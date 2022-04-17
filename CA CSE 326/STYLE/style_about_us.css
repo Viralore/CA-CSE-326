@@ -1,0 +1,19 @@
+.header_1 {
+    padding: 10px;
+    text-align: center;
+    background: #05abd4;
+    color: rgb(43, 255, 0);
+    font-size: 30px;
+}
+
+.img_aboutus {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 1px;
+}
+
+#h1a {
+    width: 100%;
+    text-align: left;
+    border-top: 4px solid red;
+}

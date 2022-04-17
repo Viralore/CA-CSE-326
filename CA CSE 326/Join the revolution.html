@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fit at Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="STYLE/style_header.css">
+    <link rel="stylesheet" href="STYLE/style_footer.css">
+    <link rel="icon" href="IMGS/LOGO/LOGO trans12.png" type="image/x-icon">
+    <link rel="stylesheet" href="STYLE/style_join_the_revolution.css">
+    <style>
+        body {
+            margin: 0px;
+        }
+    </style>
+    <script src="Scripts/Join_the_revolution.js"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="Home page.html"><img src="IMGS/LOGO/LOGO trans12.png" height="70px" width="70px"></a>
+    </div>
+    <div class="menu-bar">
+
+        <ul>
+            <li><a href="Home page.html"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="Diet Plans.html"><i class="fa fa-cutlery"></i>Diet Plans</a></li>
+            <li><a href="Exercises.html"><i class="fa fa-heart"></i>Exercises</a></li>
+            <li><a href="Contact Us.html"><i class="fa fa-paper-plane"></i>Contact Us</a></li>
+        </ul>
+
+        <ul class="sign_up">
+            <li style="width:200px;" class="active"><a href="Join the revolution.html"><i class="fa fa-user-plus"></i>Join the Revolution</a></li>
+        </ul>
+
+    </div>
+    <hr style="width:100%;text-align:left;margin-left:0;border-top: 4px solid #926239;margin-top: 0px;margin-bottom: 0px;">
+
+    <div class="login-page">
+        <div class="form">
+            <form class="reg-form">
+                <h3 class="top">Sign up Now</h3>
+                <input id="name" type="text" placeholder="Enter your name">
+                <input type="text" id="user" placeholder="Enter your Username">
+                <input id="password" type="password" placeholder="Enter your password">
+                <input id="email" type="email" placeholder="Enter your email">
+                <input id="phone" type="text" placeholder="Enter your phone number">
+                <button type="submit" onclick="validate_form()">Join the Revolution</button>
+                <p class="message">Already joined? <a href="#">Login</a></p>
+            </form>
+            <form class="login-form">
+                <h3 class="top">Login</h3>
+                <input id="username" type="text" placeholder="Username">
+                <input id="pass" type="password" placeholder="Password">
+                <button button="submit" onclick="login()">Login</button>
+                <p class="message">Not joined yet? <a href="#">Join now..</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".message a").click(function() {
+            $("form").animate({
+                height: "toggle",
+                opacity: "toggle"
+            }, "slow");
+        });
+    </script>
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1>
+                <img src="IMGS/LOGO/LOGO trans1.png" height="100px" width="250px" id="footer_logo"></h1>
+
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h1 class="h11">
+                    Follow us on</h1>
+                <ul class="box">
+                    <li><a href="#" id="a1"><i class="fa fa-facebook" style="margin-right:5px;"></i>Facebook</a></li>
+                    <li><a href="#" id="a1"><i class="fa fa-twitter" style="margin-right:5px;"></i>Twitter</a></li>
+                    <li><a href="#" id="a1"><i class="fa fa-instagram" style="margin-right:5px;"></i>Instagram</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h1 class="h11">
+                    Quick Links</h1>
+                <ul class="box h-box">
+                    <li><a href="Home page.html" id="a1"><i class="fa fa-arrow-right" style="margin-right:5px;"></i>Home</a></li>
+                    <li><a href="Diet Plans.html" id="a1"><i class="fa fa-arrow-right" style="margin-right:5px;"></i>Diet Plans</a></li>
+                    <li><a href="Exercises.html" id="a1"><i class="fa fa-arrow-right" style="margin-right:5px;"></i>Exercises</a></li>
+                    <li><a href="Contact Us.html" id="a1"><i class="fa fa-arrow-right" style="margin-right:5px;"></i>Contact Us</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="b-footer">
+            <p>
+                All rights reserved by ©www.FitatHome.com 2022 </p>
+        </div>
+    </footer>
+</body>
+
+</html>
